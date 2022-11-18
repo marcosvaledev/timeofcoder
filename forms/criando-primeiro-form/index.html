@@ -16,25 +16,43 @@
             <label for="name">Nome:</label>
             <input type="text" name="name" id="name">
         </div>
-
-        <!-- Atributo name -->`
-
-        <label for="Iage">Idade:</label>
-        <input type="text" name="age" id="Iage">
-
-
+        <!-- Atributo name -->
+        <div>
+            <label for="Iage">Idade:</label>
+            <input type="text" name="age" id="Iage">
+        </div>
         <!-- atributo select -->
-        <label for="job">Selecione sua Profissao:</label>
-        <select name="job" id="job1" >
-            <option value="Programador">Pogramador1</option>
-            <option value="arroz">Pogramador1</option>
-            <option value="feijao">arroz</option>
-            <option value="suco">Pogramador1</option>
-            <option value="carro">Pogramador1</option>
-
-        </select>
-    
+        <div>
+            <label for="job">Selecione sua Profissao:</label>
+            <select name="job" id="job1" >
+                <option value="Programador">Pogramador1</option>
+                <option value="arroz">Pogramador1</option>
+                <option value="feijao">arroz</option>
+                <option value="suco">Pogramador1</option>
+                <option value="carro">Pogramador1</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="contract"> Contrato?:</label>
+            <select name="contract" id="contract">
+                <option value="sim">Sim</option>
+                <option value="nao">Nao</option>
+            </select>
+        </div>
+        <!-- multiplas acoes -->
+        <div>
+            <label for="items-market">Selecione somente a fruta que voce mais gosta:</label>
+                <select name="items-market" multiple id="items-market">
+                    <option value="fruta">fruta</option>
+                    <option value="uva">uva</option>
+                    <option value="arroz">arroz</option>
+                    <option value="teste">teste</option>
+                    <option value="agua">agua</option>
+                    <option value="carne">carne</option>
+                    <option value="Maca">maca</option>
+               </select>
+        </div>
     </form>
-
 </body>
 </html>
