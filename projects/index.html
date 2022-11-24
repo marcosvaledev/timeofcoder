@@ -20,14 +20,65 @@
         <form>
             <div class=form-box>
                 
-                <label for="title-car">Titulo do anuncio <span class="requerid-field" style="color:red">*</span>
+                <label class="block" for="title-car">Titulo do anuncio <span class="requerid-field" style="color:red">*</span>
                 </label>
                 <input type="text" name="title" id="title-car" placeholder="Insira o anuncio do seu carro" required">
-                <div>
-                    <input type="submit" value="submit">
+             </div>
                 
+                <div class=form-box>
+                
+                    <label class="block" for="price">Preco<span class="requerid-field" style="color:red">*</span>
+                    </label>
+                    <input type="number" name="price" id="price" placeholder="Defina preco" required">
                 </div>
-            </div>
+                   
+                    <div class=form-box>
+                
+                        <label class="block" for="descriphtion-car">Descricao <span class="requerid-field" style="color:red">*</span>
+                        </label> 
+                        <textarea name="descriphtion-car" id="descriphtion-car" cols="50" rows="8" placeholder="Defina os detalhes do carro, Por exemplo: se ele tem algum arranhao." required></textarea>
+                    </div>
+
+                        <div class=form-box>
+                
+                            <label class="block" for="marca-car">Marca:<span class="requerid-field" style="color:red">*</span>
+                            </label>
+                            <input type="text" name="marca" id="marca-car" placeholder="Digite a marca do veiculo" required">\
+                        </div>
+
+                        <div class=form-box>
+
+                            <label class="block" for="modelo">Modelo:<span class="requerid-field" style="color:red">*</span></label>
+                            <input type="text" name="modelo" id="modelo" placeholder="Digite o moledo">
+                        </div>
+
+                            <div class=form-box>
+                
+                                <label class="block" for="mileage">Kilometragem:<span class="requerid-field" style="color:red">*</span>
+                                </label>
+                                <input type="number" name="mileage" id="mileage" placeholder="Digite a kilometragem do veiculo" required">
+                            </div>
+    
+                            <div class=form-box>
+
+                                    <label class="block" for="date">Data da compra:<span class="requerid-field" style="color:red">*</span>
+                                    </label>
+                                    <input type="date" name="date" id="date" required">
+                           </div>
+
+                            <div class=input-box>
+
+                                    <label class="block" for="cambio">Tipo de cambio:<span class="requerid-field" style="color:red">*</span>
+                                    </label>
+                                    
+                                    <input type="radio" name="cambio" id="manual">
+                                    <label for="manual">Manual</label>
+                                    
+                                    <input type="radio" name="cambio" id="automatic" required" value="Automatico">
+                                    <label for="automatic">Automatico</label>
+                            </div>
+                            
+            
         </form>
     </main>
 </body>
