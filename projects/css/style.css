@@ -61,8 +61,7 @@ label{
 }
 
 input{
-    
-    border: none;
+ border: none;
     border: 1px solid #ccc;
     padding: 10px 0px;
     width: 400px;
@@ -81,4 +80,3 @@ input[type="radio"]{
 .form-box{
     padding-left:15px;
 }
-
