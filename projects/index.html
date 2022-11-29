@@ -12,12 +12,14 @@
         <h2 class="title-princ">adastre seu veiculo para vender mais rapido!</h2>
     </header>
     <main>
+        <div class="contaainer">
         <h1 class="title-form">Formulario</h1>
         <hr>
         <h1 class="text-princ">Venda facil seu carro!</h1>
         <h3 class="descriphtion-text">Descreva as caracteristicas e marque opcionais que ele possui</h3>
 
         <form>
+            
             <div class=form-box>
                 
                 <label class="block" for="title-car">Titulo do anuncio <span class="requerid-field" style="color:red">*</span>
@@ -25,22 +27,22 @@
                 <input type="text" name="title" id="title-car" placeholder="Insira o anuncio do seu carro" required">
              </div>
                 
-                <div class=form-box>
+             <div class=form-box>
                 
                     <label class="block" for="price">Preco<span class="requerid-field" style="color:red">*</span>
                     </label>
                     <input type="number" name="price" id="price" placeholder="Defina preco" required">
-                </div>
+             </div>
                    
-                    <div class=form-box>
+             <div class=form-box>
                 
                         <label class="block" for="descriphtion-car">Descricao <span class="requerid-field" style="color:red">*</span>
                         </label> 
                         <textarea name="descriphtion-car" id="descriphtion-car" cols="50" rows="8" placeholder="Defina os detalhes do carro, Por exemplo: se ele tem algum arranhao." required></textarea>
-                    </div>
+            </div>
 
-                        <div class=form-box>
-                
+             <div class=form-box>
+            
                             <label class="block" for="marca-car">Marca:<span class="requerid-field" style="color:red">*</span>
                             </label>
                             <input type="text" name="marca" id="marca-car" placeholder="Digite a marca do veiculo" required">\
@@ -77,24 +79,61 @@
                                     <input type="radio" name="cambio" id="automatic" required" value="Automatico">
                                     <label for="automatic">Automatico</label>
                             </div>
-                            <div class=input-box>
 
+                            <div class=optional-box>
+
+                                <label class="block" for="date">Opcionais:<span class="requerid-field" style="color:red">*</span>
+                                </label>
+                                
                                 <ul>
-                                    <label class="" for="date">Opcionais:<span class="requerid-field" style="color:red">*</span>
-                                    </label>
-                                    
                                     <li>
-                                        <input type="checkbox" name="airbag" id="airbag" required">
-                                        <label class="inline" for="airbag">Airbag</label>
+                                        <input class="optional" type="checkbox" name="optional" id="lane-assist" required">
+                                        <label for="lane-assist">Assistente de pista</label>
                                     </li>
                                     <li>
-                                        <input type="checkbox" name="ar" id="ar" required">
-                                        <label for="ar">Ar</label>
+                                        <input class="optional" type="checkbox" name="optional" id="keyless" required">
+                                        <label for="keyless">Partida keyless</label>
+                                    </li>
+                                    <li>
+                                        <input class="optional" type="checkbox" name="optional" id="Arcond" required">
+                                        <label for="Arcond">Ar condicionado</label>
+                                    </li>
+                                    <li>
+                                        <input class="optional" type="checkbox" name="optional" id="camera" required">
+                                        <label for="camera">Camera de re</label>
                                     </li>
                                 </ul>
+                                </div>
+                                
+                                <div class=optional-box>
+                                <ul>
+                                    <li>
+                                        <input class="optional" type="checkbox" name="optional" id="arroz" required">
+                                        <label class=""for="arroz">arroz</label>
+                                    </li>
+                                    <li>
+                                        <input class="optional" type="checkbox" name="optional" id="alarm" required">
+                                        <label for="alarm">Alarme</label>
+                                    </li>
+                                    <li>
+                                        <input class="optional" type="checkbox" name="optional" id="cell" required">
+                                        <label for="cell">Integracao com o celular</label>
+                                    </li>
+                                    <li>
+                                        <input class="optional" type="checkbox" name="optional" id="bench" required">
+                                        <label for="bench">Banco de couro</label>
+                                    </li>
+                                </ul>                   
                             </div>
+                            
+                        <div class="btn-submit">
+                            <input type="submit" value="enviar">
+                        </div>
+                        
+                </div>
             
         </form>
+    </div>
     </main>
 </body>
 </html>
