@@ -7,6 +7,7 @@
 }
 .container{
 }
+/*sdsdsads*/
 /*cabeçalho do site*/
 header{
     display: flex;
@@ -44,7 +45,7 @@ a{
     text-decoration: none;
 }
 .btn-header{
-font-size: 14px;
+    font-size: 14px;
 }
 .btn-entrar{
     background-color: rgb(41, 218, 41);
@@ -63,7 +64,39 @@ font-size: 14px;
     transform: translate(-50%,-50%);
     font-size: 22px;
 }
-#HDC-title h1,p{
+#HDC-title > .title,.text-title {
     color: white;
     text-shadow: 3px 3px 3px #333;
+}
+/*part of informations benefits*/
+#HDC-information{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    margin: auto;
+    padding: 50px;
+}
+.information{
+    text-align: center;
+}
+.information p {
+    width: 350px;
+    padding-top: 10px;
+    font-family: cursive;
+    font-size: larger;
+}
+/*icons information*/
+.fas  {
+   font-size: 90px;
+   padding-bottom: 0.1em;
+}
+.fa-shield-halved{
+    color: rgb(142, 253, 91);
+    
+}
+.fa-rocket{
+    color: red;
+}
+.fa-comments{
+    color: orange;
 }
