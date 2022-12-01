@@ -6,7 +6,9 @@
     font-family: sans-serif;
 }
 .container{
+    
 }
+/*sdsdsads*/
 /*cabeçalho do site*/
 header{
     display: flex;
@@ -34,17 +36,14 @@ header ul {
     list-style:none;
 }
 
-li {
-    padding: 13px 10px;
-    border-radius:10px;
-    
-}
 a{
     color: inherit;
     text-decoration: none;
 }
 .btn-header{
-font-size: 14px;
+    font-size: 14px;
+    padding: 13px 10px;
+    border-radius:10px;
 }
 .btn-entrar{
     background-color: rgb(41, 218, 41);
@@ -63,7 +62,80 @@ font-size: 14px;
     transform: translate(-50%,-50%);
     font-size: 22px;
 }
-#HDC-title h1,p{
+#HDC-title > .title,.text-title {
     color: white;
     text-shadow: 3px 3px 3px #333;
 }
+/*part of informations benefits*/
+#HDC-information{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    margin: auto;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.information{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.information p {
+    width: 350px;
+    padding-top: 10px;
+    font-family: cursive;
+    font-size: larger;
+}
+/*icons information*/
+.fas  {
+   font-size: 90px;
+   padding-bottom: 0.1em;
+}
+.fa-shield-halved{
+    color: rgb(142, 253, 91);
+    
+}
+.fa-rocket{
+    color: red;
+}
+.fa-comments{
+    color: orange;
+}
+/*part of The prices and plans*/
+
+.title-content > h1 ,p {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.title-content h1{
+    font-size: 48px;
+    font-weight: 200;
+}
+.title-content p{
+    font-size: 30px;
+    font-weight: bold;
+}
+/*part of the plans*/
+.prices-content  {
+    width: 250px;
+    background-color: rgb(119, 119, 119);
+    border: 1px solid #333;
+}
+.prices-content ul {
+    padding: 10px;
+    text-align: center;
+}
+.prices-content li{
+    height: 50px;
+    line-height: 50px;
+}
+.prices-content .listprice{
+    background-color: green;
+    position: relative;
+    height:120px ;
+    width: 120px;
+    border-radius: 50%;
+
+}
+
+
