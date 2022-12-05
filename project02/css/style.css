@@ -10,6 +10,7 @@
 }
 /*sdsdsads*/
 /*cabeçalho do site*/
+
 header{
     display: flex;
     width:100%;
@@ -162,6 +163,59 @@ a{
     background-color: rgb(85, 228, 85);
     color: white;
 }
+
+#domain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+    background-color: rgb(22, 45, 63);
+    margin: auto;
+    text-align: center;
+}
+.text-domain{
+   padding-bottom: 30px;
+}
+.text-domain > h1{
+    color: white;
+ line-height: 1em;
+    font-size: 60px;
+}
+.text-domain > h3{
+    padding-top:30px;
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.content-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 15px 0;
+}
+
+#btn-domain{
+    height:70px ;
+    width:900px ;
+    border-radius:5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px 2px;
+}
+input::placeholder{
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* .pricing-container {
     padding-bottom: 5rem;
