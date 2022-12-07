@@ -8,6 +8,9 @@
 .container{
     
 }
+.block{
+    display:block;
+}
 /*sdsdsads*/
 /*cabeçalho do site*/
 
@@ -205,6 +208,27 @@ a{
 input::placeholder{
     font-size: 22px;
     text-align: center;
+    font-weight: bold;
+}
+.submit{
+    font-size: 25px;
+    font-weight:400;
+    color: white;
+    height:70px;
+    width:460px;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgb(10, 145, 10);
+}
+
+.submit:hover{
+    background-color:rgb(85, 228, 85);
+    
+}
+
+#form-contact{
+    height:400px;
+    width: auto;
 }
 
 
@@ -213,57 +237,3 @@ input::placeholder{
 
 
 
-
-
-
-
-/* .pricing-container {
-    padding-bottom: 5rem;
-    text-align: center;
-  }
-  
-  .pricing-container h2 {
-    font-size: 36px;
-  }
-  
-  .pricing-container p {
-    font-size: 20px;
-  }
-  
-  .plans-container {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: 50px auto 0;
-  }
-  
-  .plan {
-    flex: 1;
-    max-width: 275px;
-    margin: 0 20px;
-  }
-  
-  .plan ul {
-    padding: 0;
-  }
-  
-  .plan li {
-    list-style: none;
-    height: 50px;
-    line-height: 50px;
-    background-color: #e8e9ea;
-    color: #333;
-  }
-
-  .plan .price {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-color: #2cc762;
-    color: #fff;
-    text-align: center;
-    line-height: 120px;
-    margin: 0 auto -50px;
-    font-size: 18px;
-    position: relative;
-  } */
