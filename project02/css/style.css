@@ -168,7 +168,7 @@ a{
     background-color: rgb(85, 228, 85);
     color: white;
 }
-
+/* part of the Domains */
 #domain{
     display: flex;
     justify-content: center;
