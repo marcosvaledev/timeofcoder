@@ -10,6 +10,7 @@
 }
 /*sdsdsads*/
 /*cabeçalho do site*/
+
 header{
     display: flex;
     width:100%;
@@ -68,7 +69,7 @@ a{
 }
 /*part of informations benefits*/
 #HDC-information{
-    display: flex;
+    display:flex;
     justify-content: space-around;
     width: auto;
     margin: auto;
@@ -116,26 +117,167 @@ a{
     font-weight: bold;
 }
 /*part of the plans*/
-.prices-content  {
-    width: 250px;
-    background-color: rgb(119, 119, 119);
-    border: 1px solid #333;
+#pricing-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 40px;
+    
 }
-.prices-content ul {
+
+.plan  {
+    flex: 1;
+    max-width: 250px;
+    
+}
+.plan ul {
     padding: 10px;
     text-align: center;
 }
-.prices-content li{
+.plan li{
     height: 50px;
     line-height: 50px;
+    background-color: rgb(224, 224, 224);
+    list-style: none;
+    border-radius: 5%;
 }
-.prices-content .listprice{
-    background-color: green;
-    position: relative;
-    height:120px ;
+.plan .price{
+    background-color: rgb(85, 228, 85);
+    color: white;
+    height: 120px;
     width: 120px;
     border-radius: 50%;
+    margin: 0 53px -23px;
+    list-style:none;
+    padding-top: 30px;
+    position: relative;
+}
+.plan .basic{
+    background-color: #333;
+    padding:13px 0px 7px 0px;
+    color: white;
+    height: 80px;
+    padding-top:30px ;
+}
+.plan .saiba{
+    background-color: rgb(85, 228, 85);
+    color: white;
+}
 
+#domain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+    background-color: rgb(22, 45, 63);
+    margin: auto;
+    text-align: center;
+}
+.text-domain{
+   padding-bottom: 30px;
+}
+.text-domain > h1{
+    color: white;
+ line-height: 1em;
+    font-size: 60px;
+}
+.text-domain > h3{
+    padding-top:30px;
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.content-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 15px 0;
+}
+
+#btn-domain{
+    height:70px ;
+    width:900px ;
+    border-radius:5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px 2px;
+}
+input::placeholder{
+    font-size: 22px;
+    text-align: center;
+}
+
+.submit {
+    height:50px ;
+    width:440px ;
+    background-color: rgb(46, 211, 46);
+    margin-top: 20px;
+    border-radius: 15px;
+    border:0;
+    font-size: 22px;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+.submit:hover{
+    background-color: rgb(70, 255, 70);
+    transition: 0.7s;
 }
 
 
+
+
+
+
+
+
+/* .pricing-container {
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+  
+  .pricing-container h2 {
+    font-size: 36px;
+  }
+  
+  .pricing-container p {
+    font-size: 20px;
+  }
+  
+  .plans-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+  }
+  
+  .plan {
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+  }
+  
+  .plan ul {
+    padding: 0;
+  }
+  
+  .plan li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea;
+    color: #333;
+  }
+
+  .plan .price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2cc762;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+  } */
